@@ -205,13 +205,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "git.svg",
+    link:"https://github.com/akshay0716"
   },
-  {
-    id: 2,
-    img: "twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "twit.svg",
+  // },
   {
     id: 3,
     img: "link.svg",
+    link:"https://www.linkedin.com/in/akshay-nagargoje-b94617145/"
   },
 ];
