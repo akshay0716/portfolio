@@ -1,12 +1,13 @@
 import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
-
-
 const nextConfig = {
-    output: "export",
-};
 
-module.exports = nextConfig;
+    output: 'export',
+    images: {
+        unoptimized: true, // optional: if you want to use Next.js image optimization locally
+    },
+
+};
 
 export default withSentryConfig(nextConfig, {
     // For all available options, see:
