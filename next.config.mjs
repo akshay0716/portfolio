@@ -6,7 +6,6 @@ const nextConfig = {
     output: "export",
 };
 
-module.exports = nextConfig;
 
 export default withSentryConfig(nextConfig, {
     // For all available options, see:
