@@ -35,7 +35,7 @@ useEffect(() => {
     
     // Load Google Analytics
     gtag('js', new Date());
-    gtag('config', 'G-YP97XZ8DJT'); // Replace with your actual Measurement ID
+    gtag('config', 'G-0BJS1TS49V'); // Replace with your actual Measurement ID
   }, []);
 
 
@@ -43,7 +43,7 @@ useEffect(() => {
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
          <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-YP97XZ8DJT`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-0BJS1TS49V`}
         strategy="afterInteractive"
       />
       <Script
@@ -54,7 +54,7 @@ useEffect(() => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){window.dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-YP97XZ8DJT');
+            gtag('config', 'G-0BJS1TS49V');
           `,
         }}
       />
